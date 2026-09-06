@@ -1,3 +1,12 @@
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print(f"Hello {name}!")
+print(f"You are {age} years old.")
+
+
+
 num1 = float(input("Enter first number: "))
 operator = input("Enter operator (+, -, *, /): ")
 num2 = float(input("Enter second number: "))
