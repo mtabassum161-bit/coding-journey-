@@ -17,6 +17,14 @@ if operator == "+":
 elif operator == "-":
     print(num1 - num2)
 
+elif operator == "**":
+    print(num1 ** num2)
+elif operator == "/":
+    if num2 == 0:
+        print("Cannot divide by zero")
+    else:
+        print(num1 / num2)
+
 elif operator == "*":
     print(num1 * num2)
 
