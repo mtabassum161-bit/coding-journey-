@@ -33,3 +33,9 @@ elif operator == "/":
 
 else:
     print("Invalid operator")
+
+roll_numbers = [101, 105, 102, 101, 108, 105, 110]
+
+unique_roll_numbers = set(roll_numbers)
+
+print("Unique roll numbers:", unique_roll_numbers)
