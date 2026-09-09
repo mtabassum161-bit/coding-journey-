@@ -39,3 +39,11 @@ roll_numbers = [101, 105, 102, 101, 108, 105, 110]
 unique_roll_numbers = set(roll_numbers)
 
 print("Unique roll numbers:", unique_roll_numbers)
+
+def odd_even(number):
+    if number % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+odd_even(7)
