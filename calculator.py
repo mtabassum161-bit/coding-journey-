@@ -9,9 +9,13 @@ print(f"You are {age} years old.")
 
 import math
 
+#math = Python's built-in module
+
 num1 = float(input("Enter first number: "))
 
 operator = input("Enter operator (+, -, *, /, //, %, **, √, sin, cos, tan, log): ")
+
+#check the operator 
  
 if operator in ["√", "sin", "cos", "tan", "log"]:
      num2 = num1 
@@ -23,6 +27,8 @@ else:
 
 if operator == "+":
     print(num1 + num2)
+
+#elif = condition
 
 elif operator == "-":
     print(num1 - num2)
@@ -56,8 +62,12 @@ elif operator == "√":
     else:
         print(math.sqrt(num1))
 
+#math.sqrt() = using the sqrt function from the math module 
+
 elif operator == "sin":
     print(math.sin(math.radians(num1)))
+
+#math.radians = calculate it then convert to sin function 
 
 elif operator == "cos":
     print(math.cos(math.radians(num1)))
@@ -70,6 +80,10 @@ elif operator == "log":
         print("Log is only defined for positive numbers")
     else:
         print(math.log10(num1))
+
+
+#else = no condition
+
 
 else:
     print("Invalid operator")
