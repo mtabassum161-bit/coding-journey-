@@ -1,0 +1,36 @@
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+answer = num1 + num2
+
+print("The answer is:", answer)
+
+
+#others ways......
+
+#a,b are parameters 
+
+def calculate(a, b, operator):
+
+#def = define a function 
+#small reusable machine: you give it some information, it does a task, and it can give you a result.
+
+    if operator == "+":
+        return a + b
+#return → sends the answer back
+    elif operator == "-":
+        return a - b
+    elif operator == "*":
+        return a * b
+    elif operator == "/":
+        return a / b
+
+print(calculate(10, 5, "+"))
+
+
+#calculate(10, 5, "+") → call the function
+
+#without def function 
+#print(10 + 5)
+#print(20 + 5)
+#print(30 + 5)
